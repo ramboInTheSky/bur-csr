@@ -1,0 +1,51 @@
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+  background-color: rgb(247, 247, 247);
+}
+
+label {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form input {
+  height: 44px;
+  padding: 0px 0px 0px 5px;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+select {
+  border: solid 1px gray;
+  border-radius: 0;
+  height: 44px;
+  margin-top: 7px;
+  background-color: white;
+}
+
+button {
+  background-color: black;
+  text-transform: capitalize;
+  color: white;
+  font-size: 11px;
+  height: 44px;
+  margin: 22px 0 22px 0px;
+}
+
+.form-container {
+  padding: 48px;
+}
+
+.link {
+  text-decoration: underline;
+  cursor: pointer;
+}
